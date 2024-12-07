@@ -73,7 +73,21 @@ ul {
   align-items: center;
   justify-content: space-between;
   width: 1200px;
+  height: auto;
 }
+.img-header{
+  width: 90px;
+  height: 90px;
+  display: block;
+}
+
+.img-header img{
+  width: 90px;
+  height: 90px;
+  margin: 10px 0;
+  display: block;
+}
+
 .search {
   margin-left: 120px;
 }
@@ -88,10 +102,6 @@ ul {
 }
 .search a {
   margin-left: 10px;
-}
-.main-header-container img {
-  width: 90px;
-  height: 75px;
 }
 #main-menu {
   list-style-type: none;
